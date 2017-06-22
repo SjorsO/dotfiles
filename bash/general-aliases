@@ -1,4 +1,5 @@
-alias ll="ls -lah"
+alias ll="ls -lh"
+alias lla="ls -lha"
 alias ..="cd .."
 alias ...="cd ../.."
 
