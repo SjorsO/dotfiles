@@ -1,0 +1,7 @@
+alias vup="(cd $_sot_path_homestead && vagrant up)"
+
+alias vssh="(cd $_sot_path_homestead && vagrant ssh)"
+
+alias vreload="(cd $_sot_path_homestead && vagrant reload --provision)"
+
+alias vyaml="start $_sot_filepath_homestead_yaml"
