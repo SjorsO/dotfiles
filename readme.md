@@ -7,4 +7,4 @@ To load the BASH helpers, put the following in `~/.bash_profile`
 
 --------
 
-To load the git aliases, put them in ~/.gitconfig
+To load the git aliases, put them in `~/.gitconfig`
