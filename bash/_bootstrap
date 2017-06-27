@@ -12,5 +12,7 @@ else
     [[ $_sot_load_vagrant -eq 1 ]] && source "$_sot_bash_root"vagrant
     
     [[ $_sot_load_php -eq 1 ]]     && source "$_sot_bash_root"php
+    
+    [[ $_sot_load_docker -eq 1 ]]  && source "$_sot_bash_root"docker
 
 fi

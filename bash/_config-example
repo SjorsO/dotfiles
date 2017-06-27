@@ -6,6 +6,7 @@
 _sot_load_general=1
 _sot_load_php=1
 _sot_load_vagrant=1
+_sot_load_docker=1
 
 ################################################################################
 # Variables used by the Vagrant Homestead scripts
