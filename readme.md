@@ -1,13 +1,13 @@
 # Bash
 If you cloned Tilde in your `~` directory, you can load the Bash helpers by putting the following in your `~/.bash_profile`
 ```bash
-_tilde_root="$(echo ~)/tilde/bash/"
-    
+# https://github.com/SjorsO/tilde
+_tilde_root="$(echo ~)/tilde/bash/"    
 source "$_tilde_root""tilde.sh"
 ```
 Then create your tilde config file:
 ```bash
-cp ~/tilde/bash/tilde-config.example.sh tilde-config.sh
+cp ~/tilde/bash/tilde-config.example.sh ~/tilde/bash/tilde-config.sh
 ```
 
 # Git aliases
