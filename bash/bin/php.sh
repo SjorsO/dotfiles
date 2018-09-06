@@ -1,3 +1,4 @@
+#!/bin/bash
 alias phpspec='vendor/bin/phpspec'
 alias phpunit='vendor/bin/phpunit --colors=always'
 

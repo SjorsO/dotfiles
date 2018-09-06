@@ -1,7 +1,0 @@
-alias ll="ls -lh"
-alias lla="ls -lha"
-alias ..="cd .."
-alias ...="cd ../.."
-
-# For applying changes after editing aliases or scripts
-alias bashreload="source ~/.bash_profile"
