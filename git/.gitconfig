@@ -13,6 +13,7 @@
     cob = checkout -b
     st = status -sb
 
+    diffi = !git add --intent-to-add --all && git diff
     diffw = diff --word-diff
     diffc = diff --cached
     diffcw = diff --cached --word-diff
