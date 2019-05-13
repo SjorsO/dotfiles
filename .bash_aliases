@@ -8,11 +8,12 @@ alias artisan='php artisan'
 alias art='php artisan'
 alias mfs='php artisan migrate:fresh --seed'
 
-alias test="phpunit"
-alias tests="phpunit --stop-on-failure"
-alias testf="phpunit --filter "
-alias testsf="phpunit --stop-on-failure --filter "
-alias testfs="phpunit --stop-on-failure --filter "
+# using the alias "test" caused issues with autocompletion on Ubuntu
+alias t="phpunit"
+alias ts="phpunit --stop-on-failure"
+alias tf="phpunit --filter "
+alias tsf="phpunit --stop-on-failure --filter "
+alias tfs="phpunit --stop-on-failure --filter "
 
 alias dusk="artisan dusk"
 alias dusks="artisan dusk --stop-on-failure"
