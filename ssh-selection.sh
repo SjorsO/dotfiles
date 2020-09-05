@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# sudo apt install dialog
+# https://askubuntu.com/a/666179/647678
+
 HEIGHT=18
 WIDTH=48
 CHOICE_HEIGHT=8
